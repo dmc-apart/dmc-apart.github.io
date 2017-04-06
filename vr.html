@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+</head>
+<body>
+  <div id="vrview">
+    <iframe  width="100%" height="300px" allowfullscreen frameborder="0"
+      src="//dmcapart.dothome.co.kr/main_page/img/sub/vr/59_01_01.jpg">
+    </iframe>
+  </div>
+
+  <!-- <iframe  width="100%" height="300px" allowfullscreen frameborder="0"
+    src="//storage.googleapis.com/vrview/index.html?image=//storage.googleapis.com/vrview/examples/coral.jpg&is_stereo=true">
+  </iframe> -->
+
+
+  <script>
+      window.addEventListener('load', onVrViewLoad)
+      function onVrViewLoad() {
+      var vrView = new VRView.Player('#vrview', {
+        video: 'http://blogfiles.naver.net/MjAxNzA0MDdfMTcx/MDAxNDkxNTEwNDY0MjM2.jQZLZ5mlFQuk4K8oFfNDnkdJusP22sOzFYy5xCmCzUEg.By2pOdPwH0b43Av58_M1fWW9iXplggeQ0_tx6ur9cVAg.JPEG.wldms2312/59_01_01.jpg',
+        is_stereo: true
+      });
+      }
+  </script>
+</body>
+</html>

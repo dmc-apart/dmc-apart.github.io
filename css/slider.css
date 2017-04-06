@@ -1,0 +1,51 @@
+/********** SLIDER **********/
+.slider {
+  position: relative;
+  width: 100%;
+  height: 915px;
+  margin: 0px auto;}
+
+.slide-viewer {
+    position: relative;
+    overflow: hidden;
+    height: 915px;}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;}
+
+.slide-1{
+  background: url(../img/visual/main-visual_01.jpg) no-repeat center;
+}
+.slide-2{
+  background: url(../img/visual/main-visual_02.jpg) no-repeat center;
+}
+
+.slide:first-child {
+    display: block;}
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;
+  position: relative;
+  top: -117px;
+}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 350%;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: #e1be70;
+  cursor: pointer;}
